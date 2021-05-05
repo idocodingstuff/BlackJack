@@ -1,0 +1,297 @@
+.board {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bkboard.png);
+}
+
+.flex-box-container {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-box-container2 {
+    position: relative;
+    justify-content: center;
+    top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+}
+
+#replay {
+    width: 165px;
+    height: 80px;
+    font-size: 3em;
+    position: relative;
+    top: -1000000;
+    margin: 0% auto;
+    justify-content: center;
+}
+
+.card0 {
+    background-image: url(images/0.png) !important;
+}
+
+.card1 {
+    background-image: url(images/1.png);
+}
+
+.card2 {
+    background-image: url(images/2.png);
+}
+
+.card3 {
+    background-image: url(images/3.png);
+}
+
+.card4 {
+    background-image: url(images/4.png);
+}
+
+.card5 {
+    background-image: url(images/5.png);
+}
+
+.card6 {
+    background-image: url(images/6.png);
+}
+
+.card7 {
+    background-image: url(images/7.png);
+}
+
+.card8 {
+    background-image: url(images/8.png);
+}
+
+.card9 {
+    background-image: url(images/9.png);
+}
+
+.card10 {
+    background-image: url(images/10.png);
+}
+
+.card11 {
+    background-image: url(images/11.png);
+}
+
+.card12 {
+    background-image: url(images/12.png);
+}
+
+.card13 {
+    background-image: url(images/13.png);
+}
+
+.card14 {
+    background-image: url(images/14.png);
+}
+
+.card15 {
+    background-image: url(images/15.png);
+}
+
+.card16 {
+    background-image: url(images/16.png);
+}
+
+.card17 {
+    background-image: url(images/17.png);
+}
+
+.card18 {
+    background-image: url(images/18.png);
+}
+
+.card19 {
+    background-image: url(images/19.png);
+}
+
+.card20 {
+    background-image: url(images/20.png);
+}
+
+.card21 {
+    background-image: url(images/21.png);
+}
+
+.card22 {
+    background-image: url(images/22.png);
+}
+
+.card23 {
+    background-image: url(images/23.png);
+}
+
+.card24 {
+    background-image: url(images/24.png);
+}
+
+.card25 {
+    background-image: url(images/25.png);
+}
+
+.card26 {
+    background-image: url(images/26.png);
+}
+
+.card27 {
+    background-image: url(images/27.png);
+}
+
+.card28 {
+    background-image: url(images/28.png);
+}
+
+.card29 {
+    background-image: url(images/29.png);
+}
+
+.card30 {
+    background-image: url(images/30.png);
+}
+
+.card31 {
+    background-image: url(images/31.png);
+}
+
+
+.card32 {
+    background-image: url(images/32.png);
+}
+
+.card33 {
+    background-image: url(images/33.png);
+}
+
+.card34 {
+    background-image: url(images/34.png);
+}
+
+.card35 {
+    background-image: url(images/35.png);
+}
+
+.card36 {
+    background-image: url(images/36.png);
+}
+.card37 {
+    background-image: url(images/37.png);
+}
+
+.card38 {
+    background-image: url(images/38.png);
+}
+
+
+.card39 {
+    background-image: url(images/39.png);
+}
+
+.card40 {
+    background-image: url(images/40.png);
+}
+
+.card41 {
+    background-image: url(images/41.png);
+}
+
+.card42 {
+    background-image: url(images/42.png);
+}
+
+.card43 {
+    background-image: url(images/43.png);
+}
+
+.card44 {
+    background-image: url(images/44.png);
+}
+
+.card45 {
+    background-image: url(images/45.png);
+}
+
+.card46 {
+    background-image: url(images/46.png);
+}
+
+.card47 {
+    background-image: url(images/47.png);
+}
+
+.card48 {
+    background-image: url(images/48.png);
+}
+
+.card49 {
+    background-image: url(images/49.png);
+}
+
+.card50 {
+    background-image: url(images/50.png);
+}
+
+.card51 {
+    background-image: url(images/51.png);
+}
+
+.card52 {
+    background-image: url(images/52.png);
+}
+
+.win {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -100%;
+    background-image: url(images/winBackground.png);
+    background-repeat: repeat;
+}
+
+#outcome {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    color: black;
+    top: -175%;
+    margin: 0% auto;
+    font-size: 8em;
+}
+
+#outcome2 {
+    width: 30%;
+    height: 20%;
+    position: relative;
+    color: black;
+    top: -175%;
+    margin: 0% auto;
+    font-size: 4em;
+}
+
+#currency {
+    color: black;
+    position: relative;
+    left: 90%;
+    font-size: 2em;
+}
+
+.hidden {
+    width: 0px !important;
+    height: 0px !important;
+    background: none !important;
+}
+
+#playButton {
+    width: 100px;
+    height: 80px;
+    font-size: 3em;
+    justify-content: center;
+}
