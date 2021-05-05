@@ -251,7 +251,7 @@ function placeCard1() {
                card.style.padding = '15px'
                card.id = 'card'
                allCards++
-                   if(2 > (playerCount)) {
+               if(2 > playerCount && card.className == 'card1' || 2 > playerCount && card.className == 'card14'|| 2 > playerCount && card.className == 'card27'|| 2 > playerCount && card.className == 'card40') {
                     playerTotal+=11;
                     playerCount++
                 } else if(2 >= (playerCount)) {
