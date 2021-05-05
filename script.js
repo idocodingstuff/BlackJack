@@ -242,17 +242,17 @@ function placeCard1() {
      console.log(card1)
      if (standing == false) {
           /* if (card1 == 1 || 14 || 27 || 40) {
-               card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               card.id = 'card'
-               allCards++
-               if(2 > playerCount) {
+                    card = document.createElement("div")
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    card.id = 'card'
+                    allCards++
+                    if(2 > playerCount) {
                     playerTotal+=11;
                     playerCount++
                 } else if(2 >= (playerCount)) {
@@ -260,161 +260,161 @@ function placeCard1() {
                     playerCount++
                 }
                }*/ else if (card1 == 2 || 15 || 28 || 41) {
-                card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=2;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    card = document.createElement("div")
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=2;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 3 || 16 || 29 || 42) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=3;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=3;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 4 || 17 || 30 || 45) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=4;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=4;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 5 || 18 || 31 || 46) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=5;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=5;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 6 || 19 || 32 || 47) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=6;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=6;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 7 || 20 || 33 || 48) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=7;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=7;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 8 || 21 || 34 || 47) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=8;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=8;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 9 || 22 || 35 || 48) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=9;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=9;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 10 || 23 || 36 || 49) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=10;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=10;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 11 || 24 || 37 || 50) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=10;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=10;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 12 || 25 || 38 || 51) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=10;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=10;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
                } else if (card1 == 13 || 26 || 39 || 52) {
                     card = document.createElement("div")
-               document.getElementById('player').appendChild(card)
-               card.className = 'card' + card1
-               card.style.height = '250px'
-               card.style.width = '150px'
-               card.style.position = 'relative'
-               card.style.top = '100px'
-               card.style.padding = '15px'
-               playerTotal+=10;
-               playerCount++
-               allCards++
-               card.id = 'card'
+                    document.getElementById('player').appendChild(card)
+                    card.className = 'card' + card1
+                    card.style.height = '250px'
+                    card.style.width = '150px'
+                    card.style.position = 'relative'
+                    card.style.top = '100px'
+                    card.style.padding = '15px'
+                    playerTotal+=10;
+                    playerCount++
+                    allCards++
+                    card.id = 'card'
           }
      }
 }
@@ -426,177 +426,177 @@ function placeCard1() {
 function placeCard2() {
      console.log(card2)
      if (card2 == 1 || 14 || 27 || 40) {
-          card = document.createElement("div")
-          document.getElementById('dealer').appendChild(card)
-          card.className = 'card' + card1
-          card.style.height = '250px'
-          card.style.width = '150px'
-          card.style.position = 'relative'
-          card.style.top = '100px'
-          card.style.padding = '15px'
-          card.id = 'card'
-          allCards++
-          dealerCount++
+               card = document.createElement("div")
+               document.getElementById('dealer').appendChild(card)
+               card.className = 'card' + card1
+               card.style.height = '250px'
+               card.style.width = '150px'
+               card.style.position = 'relative'
+               card.style.top = '100px'
+               card.style.padding = '15px'
+               card.id = 'card'
+               allCards++
+               dealerCount++
           if(2 > (dealerCount)) {
                dealerTotal+=11;
           } else if(2 >= (dealerCount)) {
                dealerTotal+=1;
           }
     } else if (card2 == 2 || 15 || 28 || 41) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=2;
-        allCards++
-        dealerCount++
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=2;
+             allCards++
+             dealerCount++
         card.id = 'card'
      } else if (card2 == 3 || 16 || 29 || 42) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=3;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=3;
+             allCards++
+             dealerCount++
+             card.id = 'card'
     } else if (card2 == 4 || 17 || 30 || 43) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=4;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=4;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 5 || 18 || 31 || 44) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=5;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=5;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 6 || 19 || 32 || 45) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=6;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=6;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 7 || 20 || 33 || 46) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=7;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=7;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 8 || 21 || 34 || 47) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=8;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=8;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 9 || 22 || 35 || 48) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        playerTotal+=9;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             playerTotal+=9;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 10 || 23 || 36 || 49) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=10;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=10;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 11 || 24 || 37 || 50) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=10;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=10;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 12 || 25 || 38 || 51) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=10;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=10;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      } else if (card2 == 13 || 26 || 39 || 52) {
-          card = document.createElement("div")
-        document.getElementById('dealer').appendChild(card)
-        card.className = 'card' + card1
-        card.style.height = '250px'
-         card.style.width = '150px'
-        card.style.position = 'relative'
-        card.style.top = '100px'
-        card.style.padding = '15px'
-        dealerTotal+=10;
-        allCards++
-        dealerCount++
-        card.id = 'card'
+             card = document.createElement("div")
+             document.getElementById('dealer').appendChild(card)
+             card.className = 'card' + card1
+             card.style.height = '250px'
+             card.style.width = '150px'
+             card.style.position = 'relative'
+             card.style.top = '100px'
+             card.style.padding = '15px'
+             dealerTotal+=10;
+             allCards++
+             dealerCount++
+             card.id = 'card'
      }
 }
