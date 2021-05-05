@@ -241,7 +241,7 @@ function stands() {
 function placeCard1() {
      console.log(card1)
      if (standing == false) {
-          /* if (card1 == 1 || 14 || 27 || 40) {
+           if (card1 == 1 || 14 || 27 || 40) {
                     card = document.createElement("div")
                     document.getElementById('player').appendChild(card)
                     card.className = 'card' + card1
@@ -259,7 +259,7 @@ function placeCard1() {
                     playerTotal+=1;
                     playerCount++
                 }
-               }*/ else if (card1 == 2 || 15 || 28 || 41) {
+               } else if (card1 == 2 || 15 || 28 || 41) {
                     card = document.createElement("div")
                     document.getElementById('player').appendChild(card)
                     card.className = 'card' + card1
