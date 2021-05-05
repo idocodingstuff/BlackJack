@@ -156,7 +156,8 @@ function replayFunc() {
      winscreen = document.getElementById('winscreen')
      winscreen.classList.remove('win')
      document.getElementById('outcome').innerHTML = ' ';
-     document.getElementById('outcome2').innerHTML = ' ';var gameStatus = 'play'
+     document.getElementById('outcome2').innerHTML = ' ';
+     gameStatus = 'play'
      bet = 0
      y = 0
      z = 0
@@ -240,7 +241,7 @@ function stands() {
 function placeCard1() {
      console.log(card1)
      if (standing == false) {
-          if (card1 == 1 || 14 || 27 || 40) {
+          /* if (card1 == 1 || 14 || 27 || 40) {
                card = document.createElement("div")
                document.getElementById('player').appendChild(card)
                card.className = 'card' + card1
@@ -251,14 +252,14 @@ function placeCard1() {
                card.style.padding = '15px'
                card.id = 'card'
                allCards++
-               if(2 > playerCount && card.className == ('card1' || 'card14' || 'card27' || 'card40') ) {
+               if(2 > playerCount) {
                     playerTotal+=11;
                     playerCount++
                 } else if(2 >= (playerCount)) {
                     playerTotal+=1;
                     playerCount++
                 }
-               } else if (card1 == 2 || 15 || 28 || 41) {
+               }*/ else if (card1 == 2 || 15 || 28 || 41) {
                 card = document.createElement("div")
                document.getElementById('player').appendChild(card)
                card.className = 'card' + card1
