@@ -50,6 +50,7 @@ function play() {
 }
 function checkMoney() {
      console.log('checkMoney')
+     console.log('Player total: '+playerTotal+' Dealer total: '+dealerTotal)
      alert('For a proper experience, please zoom in and out & increase/decrease the size of your browser to fit the black border around your screen.')
      if (gameStatus !== 'game')
           setInterval(() => {
