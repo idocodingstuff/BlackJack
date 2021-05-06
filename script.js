@@ -277,10 +277,10 @@ function placeCard1() {
                     card.id = 'card'
                     allCards++
                    if(2 > playerCount) {
-                    playerTotal+=11;
+                    playerTotal + 11;
                     playerCount++
                 } else if(2 <= playerCount)  {
-                    playerTotal+=1;
+                    playerTotal + 1;
                     playerCount++
                 }
                } else if (card1 == 2 || card1 == 15 || card1 == 28 || card1 == 41) {
@@ -305,7 +305,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=3;
+               playerTotal+3;
                playerCount++
                allCards++
                card.id = 'card'
@@ -331,7 +331,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=5;
+               playerTotal+5;
                playerCount++
                allCards++
                card.id = 'card'
@@ -344,7 +344,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=6;
+               playerTotal+6;
                playerCount++
                allCards++
                card.id = 'card'
@@ -357,7 +357,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=7;
+               playerTotal+7;
                playerCount++
                allCards++
                card.id = 'card'
@@ -370,7 +370,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=8;
+               playerTotal+8;
                playerCount++
                allCards++
                card.id = 'card'
@@ -383,7 +383,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=9;
+               playerTotal+9;
                playerCount++
                allCards++
                card.id = 'card'
@@ -396,7 +396,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=10;
+               playerTotal+10;
                playerCount++
                allCards++
                card.id = 'card'
@@ -409,7 +409,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=10;
+               playerTotal+10;
                playerCount++
                allCards++
                card.id = 'card'
@@ -422,7 +422,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=10;
+               playerTotal+10;
                playerCount++
                allCards++
                card.id = 'card'
@@ -435,7 +435,7 @@ function placeCard1() {
                card.style.position = 'relative'
                card.style.top = '100px'
                card.style.padding = '15px'
-               playerTotal+=10;
+               playerTotal+10;
                playerCount++
                allCards++
                card.id = 'card'
@@ -462,9 +462,9 @@ function placeCard2() {
           allCards++
           dealerCount++
           if(2 > (dealerCount)) {
-               dealerTotal+=11;
+               dealerTotal+11;
           } else if(2 >= (dealerCount)) {
-               dealerTotal+=1;
+               dealerTotal+1;
           }
     } else if (card2 == 2 || card2 == 15 || card2 == 28 || card2 == 41) {
           card = document.createElement("div")
@@ -475,7 +475,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=2;
+        dealerTotal+2;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -488,7 +488,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=3;
+        dealerTotal+3;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -501,7 +501,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=4;
+        dealerTotal+4;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -514,7 +514,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=5;
+        dealerTotal+5;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -527,7 +527,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=6;
+        dealerTotal+6;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -540,7 +540,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=7;
+        dealerTotal+7;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -553,7 +553,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=8;
+        dealerTotal+8;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -566,7 +566,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=9;
+        dealerTotal+9;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -579,7 +579,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=10;
+        dealerTotal+10;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -592,7 +592,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=10;
+        dealerTotal+10;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -605,7 +605,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=10;
+        dealerTotal+10;
         allCards++
         dealerCount++
         card.id = 'card'
@@ -618,7 +618,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        dealerTotal+=10;
+        dealerTotal+10;
         allCards++
         dealerCount++
         card.id = 'card'
