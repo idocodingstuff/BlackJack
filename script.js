@@ -566,7 +566,7 @@ function placeCard2() {
         card.style.position = 'relative'
         card.style.top = '100px'
         card.style.padding = '15px'
-        playerTotal+=9;
+        dealerTotal+=9;
         allCards++
         dealerCount++
         card.id = 'card'
