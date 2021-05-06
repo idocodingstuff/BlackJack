@@ -295,3 +295,23 @@
     font-size: 3em;
     justify-content: center;
 }
+#info {
+    width: 100px;
+    height: 80px;
+    font-size: 3em;
+    justify-content: center;
+    position: relative;
+    top: -1400px;
+    right: -1610px;
+}
+#infoText {
+    position: relative;
+    font-size: 2em;
+    top: -2500px;
+    margin: 0% auto;
+    justify-content: center;
+    color: black;
+    right: -100px;
+    width: 1000px;
+    height: 900px;
+}
