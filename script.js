@@ -15,6 +15,29 @@ var dealerCount = 0
 var playButton = 0
 var outcomeText
 var allCards = 0
+var InfoText = '<b>Welcome to Black Jack!</b><br> This game is all about numbers. There are 4 ways to win, 2 ways to lose and a draw.<br> <br><b>The Scores</b><br>The face value is the score. Royal cards give 10. Aces gives 11 ifdrawn within the first two cards and 1 if not.<br><br><b>Win Conditions</b><br> Five Card Charlie: Reach a total of five cards without going over the 21 amount limit.<br>Blackjack: You beat the dealer while having a score of 21.<br>Normal Win: Get a higher score than the delaer.<br>Dealer bust: When the dealer exceeds the 21 limit.<br><br><b>Lose Conditions</b><br>Player bust: Your score exceeds the 21 limit. <br>Standard loss: The dealer beats your score.<br><b>How To Play</b><br>To draw, press the "Hit" button. When you think you have a good enoughs score, press the "Stand" button.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>'
+
+function info() {
+     let print = document.getElementById('infoText')
+     print.innerHTML = InfoText
+     document.getElementById('winscreen').classList.add('win')
+     document.getElementById('info').innerHTML = ('Close')
+     document.getElementById('info').className = ('btn btn-danger')
+     document.getElementById('info').addEventListener("click", infoClose)
+     document.getElementById('info').removeEventListener("click", info)
+     document.getElementById('info').style.top = '-2420px'
+}
+
+function infoClose() {
+     let print = document.getElementById('infoText')
+     print.innerHTML = ''
+     document.getElementById('winscreen').classList.remove('win')
+     document.getElementById('info').innerHTML = ('Info')
+     document.getElementById('info').className = ('btn btn-primary')
+     document.getElementById('info').addEventListener("click", info)
+     document.getElementById('info').removeEventListener("click", infoClose)
+     document.getElementById('info').style.top = '-1400px'
+}
 
 function play() {
      console.log('play')
