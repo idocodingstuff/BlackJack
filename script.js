@@ -192,6 +192,7 @@ function replayFunc() {
      playerCount = 0
      playerTotal = 0
      dealerTotal = 0
+     dealerCount = 0
      playButton = 0
      outcomeText
      allCards = 0
