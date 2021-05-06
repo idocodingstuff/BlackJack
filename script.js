@@ -276,7 +276,6 @@ function placeCard1() {
                     card.id = 'card'
                     allCards++
                    if(2 > playerCount) {
-                    console.log('yup cock')
                     playerTotal+=11;
                     playerCount++
                 } else if(2 <= playerCount)  {
