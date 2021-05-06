@@ -2,6 +2,7 @@
     height: 100%;
     width: 100%;
     background-image: url(images/bkboard.png);
+    background-repeat: no-repeat;
 }
 
 .flex-box-container {
