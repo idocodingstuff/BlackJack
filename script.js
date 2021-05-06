@@ -51,9 +51,9 @@ function play() {
 function checkMoney() {
      console.log('checkMoney')
      alert('For a proper experience, please zoom in and out & increase/decrease the size of your browser to fit the black border around your screen.')
-     console.log('Player total: '+playerTotal+' Dealer total: '+dealerTotal)
      if (gameStatus !== 'game')
           setInterval(() => {
+               console.log('Player total: '+playerTotal+' Dealer total: '+dealerTotal)
                document.getElementById('currency').innerHTML = '$' + x
           }, 1000)
 }
