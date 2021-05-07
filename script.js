@@ -85,12 +85,10 @@ var dealerDraws = setInterval(dealerDraw, 1000)
 
 function dealerDraw() {
      console.log('dealerDraw')
-          if (dealerTotal <= 17 && gameStatus == 'game' && standing == true) {
-                  card2 = 
-                  Math.floor(Math.random() * 52)+ 1;
+          if (dealerTotal < 17 && gameStatus == 'game' && standing == true) {
+                  card2 = Math.floor(Math.random() * 52)+ 1;
                  placeCard2();
-                 console.log('2222222222222', dealerTotal)
-          } else if (dealerTotal > 17 && gameStatus == 'game' && standing == true) {
+          } else if (dealerTotal >= 17 && gameStatus == 'game' && standing == true) {
                check();
           }
 }
