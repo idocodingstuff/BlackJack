@@ -201,11 +201,11 @@ function replayFunc() {
 function betAmount() {
      console.log('betAmount')
      let bet = prompt('What is the amount you want to bet?')
-     if (bet < x) {
+     if (bet < x || Number.isInteger(bet)) {
           y = bet
           gameStatus = 'game' 
           playGame()
-     } else if (bet >= x || bet == 0 || bet == ' ') {
+     } else if (bet >= x || bet == 0 || Number.isNaN(bet)) {
           alert('Invalid bet amount, please try agian')
           betAmount();
      }
